@@ -1,26 +1,56 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #05070d;
+  --surface: #0d1320;
+  --surface-2: #121a2c;
+  --text: #f4f8ff;
+  --muted: #a9b7d1;
+  --accent: #8fb9ff;
+  --accent-2: #bfd7ff;
+  --border: rgba(143, 185, 255, 0.18);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background:
+    radial-gradient(circle at top, rgba(143, 185, 255, 0.12), transparent 30%),
+    linear-gradient(180deg, #05070d 0%, #08101b 100%);
+  color: var(--text);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(143, 185, 255, 0.28);
+}
+
+.page-shell {
+  width: min(1200px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.glass-card {
+  background: rgba(13, 19, 32, 0.82);
+  border: 1px solid var(--border);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(10px);
+}
+
+.section-title {
+  color: var(--accent);
+}
+
+.soft-text {
+  color: var(--muted);
+}
+
+.org-anchor-offset {
+  scroll-margin-top: 120px;
 }
