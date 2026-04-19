@@ -13,7 +13,7 @@ export default function PhotographyPage() {
         </h1>
         <p className="mt-4 max-w-3xl leading-8 text-[#c9d6ee]">
           This page is designed as a scrollable gallery that showcases my photography from my summer travels to Spain, Italy, and China. 
-          Also featuring photos from my time as a hired photographer and Lead media TA for the <span className="font-semibold text-white">exelon summer institute</span> 
+          Also featuring photos from my time as a hired photographer and Lead media TA for the <span className="font-semibold text-white">exelon summer institute</span>  
           where I tought media classes and photographed for our sponsors. Also showcases some of my freelance work and other events I photographed.
         </p>
       </div>
