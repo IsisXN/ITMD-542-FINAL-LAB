@@ -42,10 +42,12 @@ export default function HomePage() {
           </h1>
 
           <p className="max-w-xl text-base leading-8 text-[#dce7fb] md:text-lg">
-            I am a creative student leader with experience in photography, visual
-            storytelling, and organization branding. My work focuses on creating
-            polished content, promotional materials, and engaging visuals for
-            student organizations and campus communities.
+            My name is Isis Navarro. I am currently pursuing a Bachelor's and Master's 
+            simultaneously in Information Technology Management (ITM). I enjoy working on 
+            projects that combine creativity and problem-solving. I am a creative student 
+            leader with experience in photography, visual storytelling, and organization branding.
+            My work focuses on creating polished content, promotional materials, and engaging 
+            visuals for student organizations and campus communities.
           </p>
 
           <p className="max-w-xl text-base leading-8 text-[#a9b7d1]">
@@ -112,8 +114,10 @@ export default function HomePage() {
         <div className="glass-card rounded-[1.75rem] p-6">
           <h2 className="mb-3 text-xl font-bold text-[#8fb9ff]">Full Stack Build</h2>
           <p className="leading-7 text-[#c5d4ee]">
-            This project uses the Next.js ecosystem with Prisma and PostgreSQL to
-            manage persistent project entries through full CRUD functionality.
+            My portfolio uses the Next.js ecosystem with Prisma and PostgreSQL to
+            manage persistent project entries through full CRUD functionality. 
+            Overall reflecting my growth in front-end development and allowing me to combine my technical skills with my passions for creativity and leadership.
+
           </p>
         </div>
       </div>

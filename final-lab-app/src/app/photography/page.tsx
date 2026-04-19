@@ -12,10 +12,9 @@ export default function PhotographyPage() {
           Photography
         </h1>
         <p className="mt-4 max-w-3xl leading-8 text-[#c9d6ee]">
-          This page is designed as a scrollable gallery. Right now it uses placeholder
-          images, and later you can replace them by adding your real files inside
-          the <span className="font-semibold text-white">public/images/photography</span> folder
-          and updating the image paths in <span className="font-semibold text-white">src/data/photography.ts</span>.
+          This page is designed as a scrollable gallery that showcases my photography from my summer travels to Spain, Italy, and China. 
+          Also featuring photos as a hired photography and Lead media TA for the <span className="font-semibold text-white">exelon summer institute</span> 
+          and other events.
         </p>
       </div>
 
