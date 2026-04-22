@@ -34,11 +34,11 @@ export default function HomePage() {
 
         <div className="space-y-6">
           <p className="text-sm uppercase tracking-[0.35em] text-[#bfd7ff]">
-            Portfolio Showcase
+            Portfolio Showcase Manager
           </p>
 
           <h1 className="text-5xl font-black uppercase leading-none text-[#8fb9ff] md:text-7xl">
-            About Me
+            About me
           </h1>
 
           <p className="max-w-xl text-base leading-8 text-[#dce7fb] md:text-lg">

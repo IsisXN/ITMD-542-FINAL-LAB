@@ -31,3 +31,11 @@ Install dependencies:
 
 ```bash
 npm install
+
+## Future edits 
+ - make a portfolio teplate?
+ - make it a portfolio manager app 
+# with more time
+ - maybe auth
+ - maybe multiple users
+ - maybe more tables
