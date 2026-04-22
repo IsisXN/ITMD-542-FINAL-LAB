@@ -23,9 +23,18 @@ const orgContent = {
 };
 
 async function getEntries() {
-  return prisma.projectEntry.findMany({
-    orderBy: [{ organization: "asc" }, { displayOrder: "asc" }, { createdAt: "desc" }],
-  });
+  try {
+    return await prisma.projectEntry.findMany({
+      orderBy: [
+        { organization: "asc" },
+        { displayOrder: "asc" },
+        { createdAt: "desc" },
+      ],
+    });
+  } catch (error) {
+    console.error("Failed to load project entries:", error);
+    return [];
+  }
 }
 
 function SectionImageGrid({
