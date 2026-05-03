@@ -20,6 +20,10 @@ My project is a portfolio and showcase manager that also allows users to make ph
 - `/photography` Photography gallery
 - `/projects` Organization project showcase
 - `/manage` CRUD for project entries
+- `/booking` Public booking request form
+- `/admin` Passcode page for protected manager access
+- `/manage` Protected project entry manager
+- `/booking/manage` Protected booking request manager
 
 ## Data Model
 The app uses a `ProjectEntry` model with:
