@@ -9,8 +9,11 @@ My project is a portfolio and showcase manager that also allows users to make ph
 - Tailwind CSS
 - Prisma ORM
 - PostgreSQL database
-- CRUD for project entries
-- Deployed on Vercel
+- Public portfolio pages
+- Public booking request form
+- Protected manager pages with a simple passcode gate
+- CRUD functionality for project entries and booking requests
+- Deployment through Vercel
 
 ## Pages
 - `/` Home page
