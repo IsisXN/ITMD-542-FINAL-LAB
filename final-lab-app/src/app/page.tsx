@@ -23,8 +23,8 @@ export default function HomePage() {
       <div className="grid items-center gap-10 rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-2xl md:grid-cols-[1.05fr_1fr] md:p-10">
         <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-black/30">
           <Image
-            src="/images/placeholder.svg"
-            alt="Profile placeholder"
+            src="/images/me.png"
+            alt="Profile"
             width={900}
             height={900}
             className="h-full w-full object-cover"
@@ -34,7 +34,7 @@ export default function HomePage() {
 
         <div className="space-y-6">
           <p className="text-sm uppercase tracking-[0.35em] text-[#bfd7ff]">
-            Portfolio Showcase Manager
+            Portfolio Showcase Manager and bookings
           </p>
 
           <h1 className="text-5xl font-black uppercase leading-none text-[#8fb9ff] md:text-7xl">
