@@ -1,7 +1,7 @@
 # ITMD-542-FINAL-LAB
 
 ## Project Overview
-My project is portfolio and organization showcase built with Next.js, Prisma, and PostgreSQL. It includes the folllowing pages, home, photography, and projects, along with a simple database manager page used to create, read, update, and delete project entries. Projects features graphic desighns and flyers ive made for the oranizations im apart of on campus, which includes SHPE, ALPFA and photography club. my photography page includes candid and edited pictures ive taken while traveling as well as a hired photographer for the exelon summer institute and events. my home page just features my background and more about who iam. 
+My project is a portfolio and showcase manager that also allows users to make photography bookings with me, it is built with Next.js, Prisma, and PostgreSQL. It includes the following pages, home, photography, projects, and a bookings page along with a simple database manager page used to create, read, update, and delete project entries. Projects features graphic desighns and flyers ive made for the oranizations im apart of on campus, which includes SHPE, ALPFA and photography club. my photography page includes candid and edited pictures ive taken while traveling as well as my time as a hired photographer for the exelon summer institute and other events. my home page just features my photo and more about who iam so users can get to know the photographer and my skills and other ways to reach me with social links. 
 
 ## Features
 - Next.js App Router
