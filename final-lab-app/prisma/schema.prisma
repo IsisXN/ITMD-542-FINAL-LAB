@@ -14,6 +14,13 @@ enum Organization {
   PHOTO_CLUB
 }
 
+enum BookingStatus {
+  NEW
+  REVIEWED
+  ACCEPTED
+  DECLINED
+}
+
 model ProjectEntry {
   id           String       @id @default(cuid())
   title        String
@@ -23,4 +30,16 @@ model ProjectEntry {
   displayOrder Int          @default(0)
   createdAt    DateTime     @default(now())
   updatedAt    DateTime     @updatedAt
+}
+
+model BookingRequest {
+  id            String        @id @default(cuid())
+  name          String
+  email         String
+  requestType   String
+  preferredDate String?
+  message       String
+  status        BookingStatus @default(NEW)
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
 }

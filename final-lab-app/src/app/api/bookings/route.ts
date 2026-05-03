@@ -2,18 +2,32 @@ import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 
 export async function GET() {
-  const bookings = await prisma.bookingRequest.findMany({
-    orderBy: {
-      createdAt: "desc",
-    },
-  });
+  try {
+    const bookings = await prisma.bookingRequest.findMany({
+      orderBy: {
+        createdAt: "desc",
+      },
+    });
 
-  return NextResponse.json(bookings);
+    return NextResponse.json(bookings);
+  } catch {
+    return NextResponse.json(
+      { error: "Failed to load booking requests." },
+      { status: 500 }
+    );
+  }
 }
 
 export async function POST(request: Request) {
   try {
     const body = await request.json();
+
+    if (!body.name || !body.email || !body.requestType || !body.message) {
+      return NextResponse.json(
+        { error: "Missing required booking fields." },
+        { status: 400 }
+      );
+    }
 
     const booking = await prisma.bookingRequest.create({
       data: {
