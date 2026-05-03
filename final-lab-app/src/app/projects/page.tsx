@@ -63,7 +63,7 @@ function SectionImageGrid({
           className="overflow-hidden rounded-[1.5rem] border border-white/10 bg-[#0d1320]"
         >
           <Image
-            src={item.imageUrl || "/images/placeholder.svg"}
+            src={item.imageUrl || "/images/shpeLogo.png"}
             alt={item.title}
             width={800}
             height={800}
