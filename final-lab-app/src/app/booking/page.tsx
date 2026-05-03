@@ -46,7 +46,9 @@ export default function BookingPage() {
         </h1>
         <p className="mt-4 max-w-3xl leading-8 text-[#c9d6ee]">
           Submit a request for photography, event coverage, flyer design, or
-          creative content support. This form saves the request to the database.
+          creative content support. This form saves the request but note that request are done on a first come first serve bases and 
+          submitting a request does not guarantee availability. I will reach out to you via email to confirm details and availability.
+          thanks for understanding and looking forward to working together!
         </p>
       </div>
 
@@ -114,7 +116,7 @@ export default function BookingPage() {
             value={form.message}
             onChange={(e) => setForm({ ...form, message: e.target.value })}
             className="w-full rounded-xl border border-white/10 bg-[#0a101b] px-4 py-3 text-white outline-none focus:border-[#8fb9ff]/50"
-            placeholder="Tell me what you need, the event details, or the type of content you are looking for."
+            placeholder="Tell me what you need, the event details, or the type of content you are looking for, what kind of event is this, location and length of event."
           />
         </div>
 

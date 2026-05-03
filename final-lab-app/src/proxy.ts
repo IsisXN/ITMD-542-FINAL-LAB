@@ -4,7 +4,7 @@ function isAdmin(request: NextRequest) {
   return request.cookies.get("portfolio_admin")?.value === "true";
 }
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
   const protectedProjectManagerPage = pathname.startsWith("/manage");
