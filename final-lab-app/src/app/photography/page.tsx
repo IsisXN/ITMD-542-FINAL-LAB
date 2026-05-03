@@ -40,7 +40,7 @@ export default function PhotographyPage() {
               </p>
               <h2 className="text-xl font-semibold text-white">{photo.title}</h2>
               <p className="text-sm leading-7 text-[#a9b7d1]">
-                Placeholder item for photography gallery.
+                Photography gallery.
               </p>
             </div>
           </article>
