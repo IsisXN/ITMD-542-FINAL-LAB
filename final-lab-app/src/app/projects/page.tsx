@@ -63,7 +63,7 @@ function SectionImageGrid({
           className="overflow-hidden rounded-[1.5rem] border border-white/10 bg-[#0d1320]"
         >
           <Image
-            src={item.imageUrl || "/images/shpeLogo.png"}
+            src={item.imageUrl || "/images/shpeLogo.jpg"}
             alt={item.title}
             width={800}
             height={800}
@@ -129,7 +129,7 @@ export default async function ProjectsPage() {
   const photoClubItems = entries.filter((entry) => entry.organization === "PHOTO_CLUB");
 
   const topCards = [
-    { id: "shpe", label: "SHPE", image: "/images/shpeLogo.png" },
+    { id: "shpe", label: "SHPE", image: "/images/shpeLogo.jpg" },
     { id: "alpfa", label: "ALPFA", image: "/images/alpfaLogo.png" },
     { id: "photo-club", label: "Photo Club", image: "/images/photoclub.png" },
   ];
