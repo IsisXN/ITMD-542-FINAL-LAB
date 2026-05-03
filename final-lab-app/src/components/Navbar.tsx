@@ -4,12 +4,13 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/photography", label: "Photography" },
   { href: "/projects", label: "Projects" },
+  { href: "/booking", label: "Bookings" },
 ];
 
 export default function Navbar() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#05070d]/85 backdrop-blur-md">
-      <div className="page-shell flex items-center justify-between py-4">
+      <div className="page-shell flex flex-col gap-4 py-4 sm:flex-row sm:items-center sm:justify-between">
         <Link
           href="/"
           className="text-lg font-semibold tracking-[0.2em] text-[#bfd7ff] transition hover:text-white"
@@ -17,7 +18,7 @@ export default function Navbar() {
           ISISXN
         </Link>
 
-        <nav className="flex items-center gap-3">
+        <nav className="flex flex-wrap items-center gap-3">
           {navLinks.map((link) => (
             <Link
               key={link.href}
