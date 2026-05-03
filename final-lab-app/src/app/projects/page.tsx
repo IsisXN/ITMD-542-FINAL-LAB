@@ -129,9 +129,9 @@ export default async function ProjectsPage() {
   const photoClubItems = entries.filter((entry) => entry.organization === "PHOTO_CLUB");
 
   const topCards = [
-    { id: "shpe", label: "SHPE", image: "/images/placeholder.svg" },
-    { id: "alpfa", label: "ALPFA", image: "/images/placeholder.svg" },
-    { id: "photo-club", label: "Photo Club", image: "/images/placeholder.svg" },
+    { id: "shpe", label: "SHPE", image: "/images/shpeLogo.png" },
+    { id: "alpfa", label: "ALPFA", image: "/images/alpfaLogo.png" },
+    { id: "photo-club", label: "Photo Club", image: "/images/photoclub.png" },
   ];
 
   return (
