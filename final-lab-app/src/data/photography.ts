@@ -6,7 +6,7 @@ export type PhotoItem = {
 };
 
 export const photographyItems: PhotoItem[] = [
-  { id: 1, title: "Portrait Session", category: "Portrait", image: "/images/placeholder.svg" },
+  { id: 1, title: "Portrait Session", category: "Portrait", image: "/images/portrait.jpg" },
   { id: 2, title: "Event Coverage", category: "Event", image: "/images/placeholder.svg" },
   { id: 3, title: "Outdoor Shoot", category: "Lifestyle", image: "/images/placeholder.svg" },
   { id: 4, title: "Creative Editorial", category: "Editorial", image: "/images/placeholder.svg" },
