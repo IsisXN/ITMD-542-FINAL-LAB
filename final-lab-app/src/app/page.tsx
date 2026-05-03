@@ -108,10 +108,10 @@ export default function HomePage() {
           <h2 className="mb-3 text-xl font-bold text-[#8fb9ff]">Leadership</h2>
           <p className="leading-7 text-[#c5d4ee]">
             I have taken on leadership roles in multiple organizations, including
-            vice president (Association of Latino Professionals for America), 
-            public relations director (Society of Hispanic Professional Engineers), and president (IIT Photography Club).
-            all of which involved content creation and management of promotional materials and voulnteering my time and skills
-             to support the organization and its members
+            vice president <span className="font-semibold text-white">(Association of Latino Professionals for America)</span>, 
+            public relations director <span className="font-semibold text-white">(Society of Hispanic Professional Engineers)</span>, 
+            and president <span className="font-semibold text-white">(IIT Photography Club)</span>.
+            all of which involved voulnteering my time and skills to support the organization and its members
           </p>
         </div>
 
