@@ -98,8 +98,9 @@ export default function HomePage() {
         <div className="glass-card rounded-[1.75rem] p-6">
           <h2 className="mb-3 text-xl font-bold text-[#8fb9ff]">Creative Work</h2>
           <p className="leading-7 text-[#c5d4ee]">
-            My work includes flyer design, photography, event visuals, and social
-            media content created for student organizations and campus events.
+            My work includes flyer design/ Graphic design, photography, event visuals, and social
+            media content created for student organizations, campus events and newsletters. and I have 
+            experience in visual storytelling and creating engaging promotonal materials and initiatives
           </p>
         </div>
 
@@ -107,7 +108,10 @@ export default function HomePage() {
           <h2 className="mb-3 text-xl font-bold text-[#8fb9ff]">Leadership</h2>
           <p className="leading-7 text-[#c5d4ee]">
             I have taken on leadership roles in multiple organizations, including
-            vice president, public relations director, and president.
+            vice president (Association of Latino Professionals for America), 
+            public relations director (Society of Hispanic Professional Engineers), and president (IIT Photography Club).
+            all of which involved content creation and management of promotional materials and voulnteering my time and skills
+             to support the organization and its members
           </p>
         </div>
 
@@ -116,7 +120,8 @@ export default function HomePage() {
           <p className="leading-7 text-[#c5d4ee]">
             My portfolio uses the Next.js ecosystem with Prisma and PostgreSQL to
             manage persistent project entries through full CRUD functionality. 
-            Overall reflecting my growth in front-end development and allowing me to combine my technical skills with my passions for creativity and leadership.
+            Overall reflecting my growth in front-end development and allowing me to 
+            combine my technical skills with my passions for creativity and leadership.
 
           </p>
         </div>
